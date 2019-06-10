@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap');
+
+body {
+  background: url('stars.jpg');
+}
+
+h1 {
+  color: white;
+  font-family: 'Rubik Mono One', sans-serif;
+}

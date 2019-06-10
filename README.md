@@ -1,3 +1,7 @@
+The challenge is to use the Star Wars API.
+
+Using this API, I am building a single page application that uses fetch() to retrieve information and display it.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
