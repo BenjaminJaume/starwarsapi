@@ -1,12 +1,18 @@
 import React from 'react';
 import './Card.css';
 
-const Card = ({ name, height }) => {
+const Card = ({ id, name, height, hair_color }) => {
   return (
-    <div className="card bg-white d-inline-flex flex-wrap m-2 zoom">
-      <div className="card-body text-center">
+    <div className="card m-1 zoom ">
+      <div className="card-body">
+        <img
+          className="mb-2"
+          src={`https://robohash.org/${id}?size=200x200`}
+          alt={'Picture of ' + name}
+        />
         <div>Name: {name}</div>
         <div>Height: {height}</div>
+        <div>Hair color: {hair_color}</div>
       </div>
     </div>
   );
