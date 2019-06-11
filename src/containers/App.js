@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import NavBar from '../components/Navbar';
+import NavigationBar from '../components/NavigationBar';
 import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
@@ -35,7 +35,7 @@ class App extends Component {
 
     return (
       <div>
-        <NavBar />
+        <NavigationBar />
         <h1 className="text-center mt-4">Star Wars: The New Website</h1>
         <SearchBox searchChange={this.onSearchChange} />
         <span>
